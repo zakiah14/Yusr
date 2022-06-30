@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:id="@+id/lineargroup"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        >
+
+        <ImageView
+            android:src="@drawable/quality"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/circlecolorwhite"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/textviewplace"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="name group"
+            android:textColor="#fff"
+            />
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/deletplace"
+            android:src="@drawable/delete"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/circlecolorwhite"
+            />
+    </LinearLayout>
+</LinearLayout>

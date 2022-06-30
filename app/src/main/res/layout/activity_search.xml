@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SearchActivity"
+        android:orientation="vertical"
+        android:background="#fff"
+
+>
+    <ImageView android:layout_width="match_parent" android:layout_height="200dp"
+
+               android:background="@drawable/header4"
+    />
+    <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+
+        <AutoCompleteTextView
+                android:id="@+id/textsearch"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textAlignment="center"
+                android:hint="@string/entname"
+                android:textColorHint="#0099ff"
+                android:textColor="#0099ff"
+        />
+        <ImageView
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/userreg"
+        />
+    </LinearLayout>
+    <ImageButton
+            android:id="@+id/Searchbt"
+            android:layout_width="70dp"
+            android:textColor="#fff"
+            android:layout_height="70dp"
+            android:onClick="btsearch"
+            tools:ignore="OnClick"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_search_black_24dp"
+            android:background="@drawable/circlecoloprimary"
+    />
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:id="@+id/listviewsearch"
+    ></ListView>
+</LinearLayout>

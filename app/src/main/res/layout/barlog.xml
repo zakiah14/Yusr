@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="#0099ff"
+              android:gravity="center"
+              android:padding="15dp"
+
+>
+    <TextView
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:id="@+id/exitapp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:background="@drawable/logout"
+            android:textColor="#FFFFFF"
+            android:onClick="appexit"
+
+    />
+    <android.support.v7.widget.AppCompatTextView
+            android:layout_weight="1"
+            android:id="@+id/logTitle"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Yusr"
+            android:textColor="#FFFFFF" />
+
+</LinearLayout>

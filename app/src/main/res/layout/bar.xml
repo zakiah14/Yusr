@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="#0099ff"
+android:gravity="center"
+>
+    <TextView
+            android:id="@+id/backto"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:background="@drawable/ic_arrow_forward_black_24dp"
+            android:textColor="#FFFFFF"
+            android:onClick="gotoback"
+
+    />
+    <android.support.v7.widget.AppCompatTextView
+            android:layout_weight="1"
+            android:id="@+id/tvTitle"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Ysur"
+            android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/ac_not"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="@string/Activate_Notification" />
+    <item
+            android:id="@+id/st_not"
+            android:icon="@drawable/ic_notifications_off_black_24dp"
+            android:title="@string/Stop_Notification" />
+
+</menu>

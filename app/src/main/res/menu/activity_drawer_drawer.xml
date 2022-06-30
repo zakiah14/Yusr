@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/calll"
+                android:icon="@drawable/phone"
+                android:title="@string/callled"/>
+
+        <item
+                android:id="@+id/editarea"
+                android:icon="@drawable/ic_pin_drop_black_24dp"
+                android:title="@string/editar"/>
+        <item
+                android:id="@+id/grshow"
+                android:icon="@drawable/group"
+                android:title="@string/shgr"/>
+        <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/ic_edit_black_24dp"
+                android:title="@string/edpro"/>
+        <item
+                android:id="@+id/outus"
+                android:icon="@drawable/logout"
+                android:title="@string/logout"/>
+
+    </group>
+
+
+</menu>
